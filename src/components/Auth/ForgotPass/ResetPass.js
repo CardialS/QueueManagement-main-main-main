@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form'
 import image from '../../Assets/pic.svg'
 import './ForgotPass.css'
 import AuthService from '../../../services/API'
-import { useSelector } from 'react-redux'
+
 
 const ResetPass = () => {
     const { register, handleSubmit, formState: { errors } } = useForm({

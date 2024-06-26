@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { Line, plots } from '@ant-design/plots';
+import { Line} from '@ant-design/plots';
 import Navbar from '../Navbar/Navbar';
 import BarChart from './BarChart';
 import './Charts.css'
-import image from '../../Assets/pic.svg'
+
 const DemoLine = () => {
     const [data, setData] = useState([]);
     let date = [];
     let value = [];
     useEffect(() => {
         chartData();
-    }, []);
+    });
     const chartData = () => {
         fetch('https://d4ad-2405-205-1482-fa00-943c-798-b5a8-1b5a.in.ngrok.io/shop')
             .then((response) => response.json())

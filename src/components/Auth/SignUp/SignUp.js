@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './SignUp.css'
 import Navbar from '../../Layout/Navbar/Navbar'
 import { useForm } from 'react-hook-form'
 import logo2 from '../../Assets/logo2.png'
-import { useSelector, useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import * as actionCreators from '../../../redux/actions/AuthAction'
 import { useNavigate } from 'react-router-dom'
 import AuthService from '../../../services/API'
 import { setLoader, UnsetLoader } from '../../../redux/actions/LoaderActions'
 const SignUp = () => {
-    const { register, handleSubmit, formState: { errors }, reset } = useForm({
+    const { register, handleSubmit, formState: { errors } } = useForm({
         mode: "onTouched"
     });
     const navigate = useNavigate();
@@ -56,7 +56,7 @@ const SignUp = () => {
                 <form className='input-login' onSubmit={handleSubmit(onSubmit)}>
                     <div className='form-container'>
                         <div className='email'>
-                            <input className='input-field' type="email" placeholder='Enter Email Address' name="email" {...register("email", { required: "Email is required", pattern: { value: /^[a-zA-Z0-9_\-]{4,}[@][a-z]{3,}[\.][a-z]{1,3}$/i, message: "This is not a valid email" } })}></input>
+                            <input className='input-field' type="email" placeholder='Enter Email Address' name="email" {...register("email", { required: "Email is required", pattern: { value: /^[a-zA-Z0-9_-]{4,}[@][a-z]{3,}[.][a-z]{1,3}$/i, message: "This is not a valid email" } })}></input>
                             <p className='alerts'>{errors.email?.message}</p>
                         </div>
                     </div>

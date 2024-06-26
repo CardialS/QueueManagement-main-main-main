@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom'
 import { setLoader, UnsetLoader } from '../../../redux/actions/LoaderActions';
 const Otp = () => {
     const [state, setState] = useState('');
-    const [flag, setFlag] = useState(false);
+    const [flag] = useState(false);
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
     const handleChange = (otp) => setState(otp);
